@@ -1,0 +1,543 @@
+
+    <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WJRJJVNEE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4WJRJJVNEE');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/png" href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/ico/favicon.png"/>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Leader #1 de la vente et achat de la cryptomonnaie</title>
+    <meta name="description" content="Emoney-CI : Leader #1 de la vente et achat de la cryptomonnaie en côte d&#039;ivoire">
+    <meta name="keywords" content="BTC, USDT, PM, BNB, TRON, SHIBA INU">
+    <!-- Bootstrap core CSS -->
+    <link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+	<link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/css/style.css" rel="stylesheet">
+	<link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- styles needed for carousel slider -->
+    <link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <!-- bxSlider CSS file -->
+    <link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet"/>
+    <!-- Just for debugging purposes. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- include pace script for automatic web page progress bar  -->
+    <script>
+        paceOptions = {
+            elements: true
+        };
+    </script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/js/pace.min.js"></script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/plugins/modernizr/modernizr-custom.js"></script>
+
+      <style media="screen">
+              *,
+        *:before,
+        *:after{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .popup{
+            background-color: #FFBF00;
+            width: auto;
+            padding: 30px 40px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+            border-radius: 8px;
+            font-family: "Poppins",sans-serif;
+            display: none; 
+            text-align: center;
+        }
+        .popup button{
+            display: block;
+            margin:  0 0 20px auto;
+            background-color: transparent;
+            font-size: 30px;
+            color: #ffffff;
+            background: #000000;
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .popup h2{
+          margin-top: -20px;
+        }
+        .popup p{
+            font-size: 14px;
+            text-align: justify;
+            margin: 20px 0;
+            line-height: 25px;
+        }
+
+        .popup a{
+            display: block;
+            width: 150px;
+            position: relative;
+            margin: 10px auto;
+            text-align: center;
+            background-color: #000000;
+            border-radius: 20px;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 0;
+        }
+
+      </style>
+
+  </head>
+<body>
+<div id="wrapper">
+    <div class="header">
+    	<nav class="navbar fixed-top navbar-site navbar-light bg-light navbar-expand-md"
+    		 role="navigation">
+    		<div class="container">
+            <div class="navbar-identity">
+    			<a href="https://emoneyci-exchanges.com/" class="navbar-brand logo logo-title">
+    			<img src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/img/site_logo_2.png" height="50px" style="margin-top:-5px;"></a>
+    			<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggler pull-right"
+    					type="button">
+    				<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+    			</button>
+    			<button
+    					class="dropdown flag-menu country-flag d-block d-md-none btn btn-secondary hidden pull-right">	<span class="flag-icon flag-icon-fr"></span>  <span class="caret"></span>
+    			</button>
+            </div>
+            
+    			<div class="navbar-collapse collapse">
+    				<ul class="nav navbar-nav navbar-left">
+    					<li class="flag-menu country-flag tooltipHere hidden-xs dropdown nav-item" data-toggle="tooltip" data-placement="right" title="Sélectionnez la langue">	
+                    <a href="#">
+    						      <span class="flag-icon flag-icon-fr"></span>
+                    </a>         
+    					</li>
+    				</ul>
+                    <ul class="nav nav-tabs" style="margin-left:55px">
+                        <li id="lien1" class="nav-item">
+                          <a style="color: #000000; font-weight: bold" class="nav-link" href="https://emoneyci-exchanges.com/">Échange</a>
+                        </li>
+                        <li id="lien2" class="nav-item">
+                          <a style="color: #000000; font-weight: bold" class="nav-link" href="https://emoneyci-exchanges.com/news">Actualités</a>
+                        </li>
+                        <li id="lien3" class="nav-item">
+                          <a style="color: #000000; font-weight: bold" class="nav-link" href="https://emoneyci-exchanges.com/reviews">Avis</a>
+                        </li>
+                        <li id="lien4" class="nav-item">
+                          <a style="color: #000000; font-weight: bold" class="nav-link" href="https://emoneyci-exchanges.com/tarifs">Tarifs</a>
+                        </li>
+                    </ul>
+    				<ul class="nav navbar-nav ml-auto navbar-right">
+        <li class="nav-item"><a href="https://emoneyci-exchanges.com/login" class="nav-link"><i class="fa fa-lock"></i> Connexion</a>
+        </li>
+        <li class="postadd nav-item"><a class="btn btn-block   btn-border btn-post btn-orange nav-link" href="https://emoneyci-exchanges.com/inscription">Créer un compte</a>
+        </li>
+        
+    </ul>
+    			</div>
+    			<!--/.nav-collapse -->
+    		</div>
+    		<!-- /.container-fluid -->
+    	</nav>
+    </div>
+    <!-- /.header -->
+
+    <script>
+      //chemin reçoit le path du lien
+
+      //var chemin = window.location.pathname;
+      var url = window.location.href;
+
+      const parent_lien1 = document.getElementById('lien1');
+      children_lien1 = parent_lien1.children[0];
+      const attributeClass1 = children_lien1.getAttribute("class");
+      var lien1 = children_lien1.getAttribute("href");
+
+      const parent_lien2 = document.getElementById('lien2');
+      children_lien2 = parent_lien2.children[0];
+      const attributeClass2 = children_lien2.getAttribute("class");
+      var lien2 = children_lien2.getAttribute("href");
+
+      const parent_lien3 = document.getElementById('lien3');
+      children_lien3 = parent_lien3.children[0];
+      const attributeClass3 = children_lien3.getAttribute("class"); 
+      var lien3 = children_lien3.getAttribute("href");
+
+      const parent_lien4 = document.getElementById('lien4');
+      children_lien4 = parent_lien4.children[0];
+      const attributeClass4 = children_lien4.getAttribute("class"); 
+      var lien4 = children_lien4.getAttribute("href");
+
+      if(lien1 == url) {
+        children_lien1.setAttribute("class", "nav-link active");
+        children_lien2.setAttribute("class", "nav-link");
+        children_lien3.setAttribute("class", "nav-link");
+        children_lien4.setAttribute("class", "nav-link");
+
+      }else if(lien2 == url) {
+        children_lien1.setAttribute("class", "nav-link");
+        children_lien2.setAttribute("class", "nav-link active");
+        children_lien3.setAttribute("class", "nav-link");
+        children_lien4.setAttribute("class", "nav-link");
+      }else if(lien3 == url) {
+        children_lien1.setAttribute("class", "nav-link");
+        children_lien2.setAttribute("class", "nav-link");
+        children_lien3.setAttribute("class", "nav-link active");
+        children_lien4.setAttribute("class", "nav-link");
+      }else if(lien4 == url) {
+        children_lien1.setAttribute("class", "nav-link");
+        children_lien2.setAttribute("class", "nav-link");
+        children_lien3.setAttribute("class", "nav-link");
+        children_lien4.setAttribute("class", "nav-link active");
+      }
+
+    </script>
+    <div class="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 page-content">
+                        <div class="inner-box category-content">
+                            <h2 class="title-2"><i class="icon-user-add"></i> Créer votre compte </h2>
+    
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    
+                                    <form class="form-horizontal" action="" method="POST">
+                                        <fieldset>
+    
+                
+                                            <div class="form-group  row required">
+                                                <label for="inputEmail3" class="col-md-4 control-label">Adresse Email
+                                                    <sup>*</sup></label>
+    
+                                                <div class="col-md-6">
+                                                    <input type="email" name="email" class="form-control" id="inputEmail3"
+                                                           placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="form-group  row required">
+                                                    <label for="inputPassword1" class="col-md-4 control-label">Mot de passe </label>
+        
+                                                    <div class="col-md-6">
+                                                        <input type="password" name="password" class="form-control" id="inputPassword1"
+                                                               placeholder="Mot de passe">
+        
+        
+                                                            <small id="passwordHelpBlock" class="form-text text-muted">
+        
+        
+                                                            Au moins 6 caractères
+                                                                </small>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group  row required">
+                                                        <label for="inputPassword2" class="col-md-4 control-label">Confirmez le mot de passe </label>
+            
+                                                        <div class="col-md-6">
+                                                            <input type="password" name="cpassword" class="form-control" id="inputPassword2"
+                                                                   placeholder="Confirmer Mot de passe">
+            
+            
+                                                                <small id="passwordHelpBlock" class="form-text text-muted">
+            
+            
+                                                                Au moins 6 caractères
+                                                                    </small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                            <label class="col-md-4 control-label"></label>
+                
+                                                            <div class="col-md-8">
+                                                                    
+                                                            </div>
+                                                        </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-4 control-label"></label>
+    
+                                                <div class="col-md-8">
+                                                    <div class="termbox mb10">
+                                                        <div class="col-auto my-1 no-padding">
+                                                            <div class="custom-control custom-checkbox mr-sm-2">
+                                                                <input type="checkbox" name="p1" value="ok" class="custom-control-input" id="customControlAutosizing">
+                                                                <label class="custom-control-label" for="customControlAutosizing">  
+                                                                    <span class="custom-control-description"> Je suis d'accord avec <a style="color:#FFA500" href="https://emoneyci-exchanges.com/page/terms-of-services">Les conditions d'utilisation des services</a> </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+    
+                                                    </div>
+                                                    <div style="clear:both"></div>
+                                                    <button type="submit" name="ce_btn" value="register" class="btn btn-orange">Inscription</a></div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.page-content -->
+    
+                    <div class="col-md-4 reg-sidebar">
+                        <div class="reg-sidebar-inner text-center">
+                            <div class="promo-text-box"><i class="fa fa-3x fa-user"></i>
+    
+                                <h3><strong>Gérer vos commandes</strong></h3>
+    
+                                <p> Créez un compte et bénéficiez de certaines réductions. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.main-container -->
+    
+    <footer class="main-footer">
+            <div class="footer-content" style="background-color: #FFA500">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class=" col-xl-2 col-xl-2 col-md-2 col-6  ">
+                            <div class="footer-col">
+                                <h4 class="footer-title">A propos de nous</h4>
+                                <ul class="list-unstyled footer-nav">
+                               <!-- <li><a href="https://emoneyci-exchanges.com/page/terms-of-services">Les conditions d'utilisation des services</a></li>-->
+                                <!--    <li><a href="https://emoneyci-exchanges.com/page/privacy-policy">Politique de confidentialité</a></li>-->
+                                    <li><a href="https://emoneyci-exchanges.com/page/about-us">A propos de nous</a></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class=" col-xl-2 col-xl-2 col-md-2 col-6  ">
+                            <div class="footer-col">
+                                <h4 class="footer-title">Aide et contact</h4>
+                                <ul class="list-unstyled footer-nav">
+                                    <li><a href="https://emoneyci-exchanges.com/page/faq">FAQ</a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/contacts">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class=" col-xl-2 col-xl-2 col-md-2 col-6  ">
+                            <div class="footer-col">
+                                <h4 class="footer-title">Plus</h4>
+                                <ul class="list-unstyled footer-nav">
+                                    
+                                    <li><a href="https://emoneyci-exchanges.com/news">Actualités</a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/sitemap">Sitemap</a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/reviews">Avis des utilisateurs</a></li>
+                                    
+                                    <li><a href="https://emoneyci-exchanges.com/page/discount_system">Système de réduction</a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/page/affiliate_program">Programme de parrainage</a></li>
+    
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" col-xl-2 col-xl-2 col-md-2 col-6  ">
+                            <div class="footer-col">
+                                <h4 class="footer-title">Compte</h4>
+                                <ul class="list-unstyled footer-nav">
+                                    <li><a href="https://emoneyci-exchanges.com/account/dashboard"> Gérer le compte
+                                    </a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/login"> Connexion
+                                    </a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/inscription"> Inscription
+                                    </a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/account/exchanges"> Mes échanges
+                                    </a></li>
+                                    <li><a href="https://emoneyci-exchanges.com/page/carte_visa_crypto"> Carte VISA CRYPTO
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" col-xl-4 col-xl-4 col-md-4 col-12">
+                            <div class="footer-col row">
+    
+                                <div class="col-sm-12 col-xs-6 col-xxs-12 no-padding-lg">
+                                    <div class="mobile-app-content">
+                                        <h4 class="footer-title">Application Mobile</h4>
+                                        <div class="row ">
+                                            <!--<div class="col-6  ">
+                                                <a class="app-icon" target="_blank"  href="https://itunes.apple.com/">
+                                                    <span class="hide-visually">iOS app</span>
+                                                    <img src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/app_store_badge.svg" alt="Available on the App Store">
+                                                </a>
+                                            </div>-->
+                                            <div class="col-6  ">
+                                                <a class="app-icon" href="https://play.google.com/store/apps/details?id=com.applyhoster.emoney">
+                                                    <span class="hide-visually">Application Android</span>
+                                                    <img src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/google-play-badge.png" alt="Disponible sur Playstore">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-sm-12 col-xs-6 col-xxs-12 no-padding-lg">
+                                    <div class="hero-subscribe">
+                                        <ul class="list-unstyled list-inline footer-nav social-list-footer social-list-color footer-nav-inline">
+                                            <li><a class="icon-color fb rounded-circle" title="Facebook" data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/emoneyci.exchanges"><i class="fab fa-facebook-f"></i> </a></li>
+                                            <li><a class="icon-color tw rounded-circle" title="Twitter" data-placement="top" data-toggle="tooltip" href="https://twitter.com/EmoneyCi"><i class="fab fa-twitter"></i> </a></li>
+                                            <!--<li><a class="icon-color gp rounded-circle" title="Google+" data-placement="top" data-toggle="tooltip" href="#"><i class="fab fa-google-plus-g"></i> </a></li>-->
+                                            <!--<li><a class="icon-color lin rounded-circle" title="Linkedin" data-placement="top" data-toggle="tooltip" href="#"><i class="fab fa-linkedin"></i> </a></li>-->
+                                            <li><a class="icon-color wa rounded-circle" title="Whatsapp" data-placement="top" data-toggle="tooltip" href="https://chat.whatsapp.com/BY4IDWiVQrD2KZp7cQGjp7"><i class="fab fa-whatsapp"></i> </a></li>
+                                        </ul>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+    
+                        <div class="col-xl-12">
+                            <!-- TradingView Widget BEGIN 
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Marchés</span></a> par TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      },
+      {
+        "description": "XOF/USD",
+        "proName": "FX_IDC:XOFUSD"
+      },
+      {
+        "description": "XOF/EUR",
+        "proName": "FX_IDC:XOFEUR"
+      },
+      {
+        "description": "DOGE",
+        "proName": "COINBASE:DOGEUSD"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "fr"
+  }
+    </script>
+  </div>
+  TradingView Widget END -->
+                            <!--<div class=" text-center paymanet-method-logo">
+    
+                                <img src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/master_card.png" alt="img">
+                                <img alt="img" src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/visa_card.png">
+                                <img alt="img" src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/paypal.png">
+                                <img alt="img" src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/american_express_card.png"> <img alt="img" src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/discover_network_card.png">
+                                <img alt="img" src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/images/site/payment/google_wallet.png">
+                            </div>-->
+                            
+                            <div class="copy-info text-center" style="padding-bottom: 20px">
+                                &copy; 2020 emoneyci-exchanges. Tous droits réservés.
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    </div>
+    <!-- /.wrapper -->
+    
+    
+    <!-- Le javascript
+    ================================================== -->
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?45624';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"EMONEYCI EXCHANGES",
+          "brandSubTitle":"Leader #1 de la vente et achat de la cryptomonnaie en côte d'ivoire",
+          "brandImg":"https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/img/site_logo_2.png",
+          "welcomeText":"Bonjour, comment pouvons-nous vous aider ?",
+          "messageText":"Bonjour Emoney, je voudrais ... {{page_link}}",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Discuter",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"2250748952608"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <input type="hidden" id="wurl" value="https://emoneyci-exchanges.com/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/js/jquery/jquery-3.3.1.min.js">\x3C/script>')</script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/bootstrap/js/bootstrap.bundle.js"></script>
+    
+	<script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/js/vendors.min.js"></script>
+    <!-- include custom script for site  -->
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/js/main.min.js"></script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/frais.js"></script>
+    <script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/js/ce.js"></script>
+    <link href="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/cleditor/jquery.cleditor.css" rel="stylesheet">
+<script src="https://emoneyci-exchanges.com/app/templates/CryptoExchanger/assets/cleditor/jquery.cleditor.min.js"></script>
+<script>
+    $(document).ready(function () { $("#cleditor").cleditor(); });
+</script>
+    </body>
+    </html>
+     
